@@ -69,6 +69,10 @@
         {
           "q": "What are Gems?",
           "a": "Gems boost your combat stats permanently. Gem of Destruction boosts bomb power, Gem of Technology boosts hack power, and Gem of Power boosts raid power. Level them up in the Traders Hall."
+        },
+        {
+          "q": "Why does population cost more the more I have?",
+          "a": "Population uses tiered pricing — your first 120,000 pop costs 1 unit each, but every tier after that doubles the price. This keeps the economy balanced so high-population players can't just snowball endlessly. Check the Population Cost Tiers guide for the full breakdown."
         }
       ]
     },
