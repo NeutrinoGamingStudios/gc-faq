@@ -1,0 +1,108 @@
+{
+  "sections": [
+    {
+      "title": "Getting Started",
+      "icon": "🚀",
+      "items": [
+        {
+          "q": "How do I get started?",
+          "a": "Complete all Training Tracks in the Academy — they teach you the basics of raiding, hacking, bombing, and fleet management. Then head to Intergalactic Chat and ask around for a player-run fleet to join."
+        },
+        {
+          "q": "What is a fleet?",
+          "a": "A fleet is a group of players who work together. You can join a fleet, contribute units, earn fleet XP, and access fleet assets like the Dyson Sphere and Halo Vault. Having a fleet behind you makes a big difference."
+        },
+        {
+          "q": "What is a home fleet?",
+          "a": "Your home fleet is the fleet you're committed to. You must be in a fleet for 5 consecutive days before it becomes your home fleet. Home fleet members can access fleet assets and participate in fleet wars."
+        },
+        {
+          "q": "How do I earn units?",
+          "a": "Raid other players! Successful raids steal units from your target. You can also earn units from contracts and daily challenges."
+        }
+      ]
+    },
+    {
+      "title": "Combat",
+      "icon": "⚔️",
+      "items": [
+        {
+          "q": "How does raiding work?",
+          "a": "Raids steal units from another player. Your raid power vs their turret power determines the outcome. Upgrade your Garrison to increase your raid troop capacity."
+        },
+        {
+          "q": "How does hacking work?",
+          "a": "Hacks deal damage to a player's shield. Once their shield is down, they become vulnerable to bombs. Your hack power vs their firewall power determines the outcome."
+        },
+        {
+          "q": "How does bombing work?",
+          "a": "Bombs destroy population — but only if the target's shield is down (0 HP). Your bomb power vs their bombing dome power determines the outcome. Population is important because it contributes to your total power."
+        },
+        {
+          "q": "What is the Emergency Shield?",
+          "a": "When your shield is destroyed, you can activate an Emergency Shield to restore it. It costs Federal Crystals and has a cooldown. Cast it quickly after your shield breaks to protect against bombs!"
+        }
+      ]
+    },
+    {
+      "title": "Contracts",
+      "icon": "📋",
+      "items": [
+        {
+          "q": "What are contracts?",
+          "a": "Contracts are PvE missions. Each contract has three HP bars (Raid, Hack, Bomb) that you need to deplete. You earn units and XP for completing them."
+        },
+        {
+          "q": "My troops keep running out during contracts!",
+          "a": "You can use Federal Crystals to instantly regenerate all three troop types. Troops also regenerate slowly over time. Plan your attacks to use all three types efficiently."
+        }
+      ]
+    },
+    {
+      "title": "Economy & Items",
+      "icon": "💎",
+      "items": [
+        {
+          "q": "What are Federal Crystals?",
+          "a": "Federal Crystals are the premium currency. Use them for Emergency Shields, troop regeneration, abilities (Enrich, Fortify, Nullify), and more. Earn them from contracts, daily challenges, and the Traders Hall."
+        },
+        {
+          "q": "What are Gems?",
+          "a": "Gems boost your combat stats permanently. Gem of Destruction boosts bomb power, Gem of Technology boosts hack power, and Gem of Power boosts raid power. Level them up in the Traders Hall."
+        }
+      ]
+    },
+    {
+      "title": "Faction Orders",
+      "icon": "🏆",
+      "items": [
+        {
+          "q": "What are Faction Orders?",
+          "a": "Faction Orders are 15-day events where you earn points by playing normally — raids, hacks, bombs, and contracts all count. Earn enough points to unlock tiered rewards for your faction."
+        },
+        {
+          "q": "What is the Galactic Champion?",
+          "a": "The player with the most Faction Order points at the end of the event becomes the Galactic Champion. Champions get a crown animation on their entrance and special recognition."
+        }
+      ]
+    },
+    {
+      "title": "Account & Technical",
+      "icon": "⚙️",
+      "items": [
+        {
+          "q": "How do I change my username?",
+          "a": "Go to Settings and tap Change Username. You can change your name once every 7 days. Your progress, fleet membership, and all data carry over."
+        },
+        {
+          "q": "I'm experiencing lag or connection issues",
+          "a": "Try closing and reopening the app. If the issue persists, check your internet connection. The game uses WebSocket connections that can sometimes drop on unstable networks."
+        },
+        {
+          "q": "How do I join the Discord?",
+          "a": "Join our community Discord at discord.gg/gu7R5hp4 — report bugs, suggest features, and connect with other commanders!"
+        }
+      ]
+    }
+  ]
+}
