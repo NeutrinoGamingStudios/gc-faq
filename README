@@ -1,0 +1,106 @@
+# Galactic Conquest: FAQ
+
+Community-driven FAQ for **Galactic Conquest: Faction War**. This repo powers the in-game FAQ screen — every merged change goes live for all players.
+
+## Contributing
+
+We welcome contributions from the community. If you spot missing info, outdated answers, or have a question you think every new commander should see, open a pull request.
+
+**Approved contributions earn you 300 Federal Crystals** deposited directly to your in-game account. Include your in-game username in the PR description so we can credit you.
+
+## File Structure
+
+All FAQ content lives in a single file: `faq.json`
+
+The file contains a top-level `sections` array. Each section groups related questions under a heading.
+
+## JSON Format
+
+### Section
+
+```json
+{
+  "title": "Section Name",
+  "icon": "🚀",
+  "items": []
+}
+```
+
+- `title` — the section heading displayed in-game
+- `icon` — a single emoji representing the section
+- `items` — array of question/answer objects
+
+### Item
+
+```json
+{
+  "q": "Your question here?",
+  "a": "Clear, concise answer here."
+}
+```
+
+- `q` — the question as a player would ask it
+- `a` — the answer, kept to a few sentences
+
+### Full Example
+
+Adding a new question to an existing section:
+
+```json
+{
+  "q": "How does population cost scaling work?",
+  "a": "Population uses tiered pricing — your first 120,000 pop costs 1 unit each, but every tier after that doubles the price. This keeps the economy balanced so high-population players can't snowball endlessly."
+}
+```
+
+Add the object to the `items` array of the appropriate section in `faq.json`.
+
+### Adding a New Section
+
+If your questions don't fit any existing section, you can propose a new one:
+
+```json
+{
+  "title": "Your Section Name",
+  "icon": "🎯",
+  "items": [
+    {
+      "q": "First question in the new section?",
+      "a": "Answer here."
+    }
+  ]
+}
+```
+
+Add the object to the `sections` array in `faq.json`.
+
+## Current Sections
+
+| Icon | Section | Topics |
+|------|---------|--------|
+| 🚀 | Getting Started | Fleets, home fleets, earning units |
+| ⚔️ | Combat | Raiding, hacking, bombing, shields |
+| 📋 | Contracts | PvE missions, troop management |
+| 💎 | Economy & Items | Federal Crystals, Gems, population costs |
+| 🏆 | Faction Orders | Events, Galactic Champion |
+| ⚙️ | Account & Technical | Username changes, connectivity, Discord |
+
+## PR Guidelines
+
+1. Keep answers short and accurate — players skim, they don't read essays.
+2. Write questions the way a player would actually ask them.
+3. Validate your JSON before submitting. The file must parse cleanly or the PR will be rejected.
+4. Place new items in the most relevant existing section before proposing a new one.
+5. One topic per question — don't combine unrelated info into a single answer.
+
+## Validation
+
+Run this before submitting to make sure the JSON is valid:
+
+```bash
+python3 -c "import json; json.load(open('faq.json')); print('Valid')"
+```
+
+## Community
+
+Join the Discord at **discord.gg/gu7R5hp4** to discuss FAQ additions, report bugs, and connect with other commanders.
