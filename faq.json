@@ -10,7 +10,7 @@
         },
         {
           "q": "What is a fleet?",
-          "a": "A fleet is a group of players who work together. You can join a fleet, contribute units, earn fleet XP, and access fleet assets like the Dyson Sphere and Halo Vault. Having a fleet behind you makes a big difference."
+          "a": "A fleet is a group of players who work together. You can join a fleet, contribute units, earn fleet XP, and access fleet assets like the Dyson Sphere and Medical Bay. Having a fleet behind you makes a big difference."
         },
         {
           "q": "What is a home fleet?",
@@ -19,6 +19,10 @@
         {
           "q": "How do I earn units?",
           "a": "Raid other players! Successful raids steal units from your target. You can also earn units from contracts and daily challenges."
+        },
+        {
+          "q": "What is total power?",
+          "a": "Total power is the sum of your raid power, hack power, bomb power, defense stats, and population bonus. It determines your ranking on leaderboards. Upgrade your buildings and grow your population to increase it."
         }
       ]
     },
@@ -41,6 +45,106 @@
         {
           "q": "What is the Emergency Shield?",
           "a": "When your shield is destroyed, you can activate an Emergency Shield to restore it. It costs Federal Crystals and has a cooldown. Cast it quickly after your shield breaks to protect against bombs!"
+        },
+        {
+          "q": "What happens when my troops run out?",
+          "a": "Troops regenerate slowly over time. You can also spend 100 Federal Crystals to instantly regenerate a troop type. Each attack costs troops whether you win or lose, so plan your attacks wisely."
+        }
+      ]
+    },
+    {
+      "title": "Abilities",
+      "icon": "⚡",
+      "items": [
+        {
+          "q": "What is Enrich?",
+          "a": "Enrich boosts your resource production for a limited time. Activate it from your own profile. Higher levels increase the bonus and duration."
+        },
+        {
+          "q": "What is Fortify?",
+          "a": "Fortify temporarily strengthens your shield beyond its normal capacity, making you harder to hack through. Activate it from your own profile when you expect incoming attacks."
+        },
+        {
+          "q": "What is Scramble?",
+          "a": "Scramble gives you a 70% chance to deflect bomb damage completely. While active, your hack troops are consumed and will not regenerate. It's a powerful defensive tool but leaves you unable to hack while it's running."
+        },
+        {
+          "q": "What is Nullify?",
+          "a": "Nullify disables another player's active abilities. Cast it on an enemy's profile to shut down their Enrich, Fortify, or Scramble. It has a 7-day cooldown, so use it strategically."
+        }
+      ]
+    },
+    {
+      "title": "NPC Frontlines",
+      "icon": "🛰️",
+      "items": [
+        {
+          "q": "What are the Frontlines?",
+          "a": "The Frontlines is a cooperative PvE system where all deployed players work together to take down NPC Coalition fleets. Deploy from the Intel tab in Archives to participate."
+        },
+        {
+          "q": "How do I deploy?",
+          "a": "Go to Archives → Intel tab and tap the Deploy to Frontlines button. Once deployed, you can attack NPC targets. You can withdraw at any time, but there is a 3-day cooldown before you can redeploy."
+        },
+        {
+          "q": "How does the siege system work?",
+          "a": "Each NPC has four phases: Supplies → Shields → Hull → Boarding. Raid their supplies down, hack their shields, bomb their hull, then raid again to board and destroy them. All deployed players contribute damage together."
+        },
+        {
+          "q": "What is the boarding window?",
+          "a": "When an NPC's hull reaches 0, a boarding window opens. This is a timed countdown — all deployed players must raid the NPC's core systems before the window closes. If the window expires, the NPC repairs its hull and you have to bomb it again."
+        },
+        {
+          "q": "Do NPC fleets fight back?",
+          "a": "Coalition forces launch retaliatory strikes against deployed players. If you're deployed to the frontlines, expect incoming attacks on your settlement. Make sure your defenses are strong."
+        },
+        {
+          "q": "What happens when I destroy an NPC?",
+          "a": "You earn XP based on the NPC's difficulty tier. The damage contribution leaderboard tracks who dealt the most damage. When all members of a fleet are destroyed, the fleet is neutralized."
+        }
+      ]
+    },
+    {
+      "title": "Medical Bay",
+      "icon": "🏥",
+      "items": [
+        {
+          "q": "What is the Medical Bay?",
+          "a": "The Medical Bay is a fleet asset that rescues a portion of your population when you get bombed. Instead of being destroyed permanently, some civilians are transferred to the Medical Bay for triage."
+        },
+        {
+          "q": "How much population is saved?",
+          "a": "It depends on your fleet's Medical Bay level. Each level has a per-player cap and a fleet-wide capacity. Level 1 saves up to 25,000 per player. Level 5 saves up to 400,000 per player."
+        },
+        {
+          "q": "How do I recover my triage population?",
+          "a": "Go to your fleet assets and open the Medical Bay. You can revive all patients at once using units (30% of the population as cost) or use a Nano Serum item to revive for free."
+        },
+        {
+          "q": "Do triage patients expire?",
+          "a": "Yes — patients remain in triage for 3 days. If you don't revive them within that window, they are lost permanently. Check the Medical Bay regularly after getting bombed."
+        },
+        {
+          "q": "Does every fleet have a Medical Bay?",
+          "a": "No — it must be purchased as a fleet asset by a General or Admiral. If your fleet doesn't have one, your destroyed population is lost immediately."
+        }
+      ]
+    },
+    {
+      "title": "Fleet Assets",
+      "icon": "🏗️",
+      "items": [
+        {
+          "q": "What are fleet assets?",
+          "a": "Fleet assets are major infrastructure that benefit your entire home fleet. They include the Dyson Sphere, Halo Vault, Sentry Swarm, Medical Bay, and more. Only home fleet members can access them."
+        },
+        {
+          "q": "How do I get fleet assets?",
+          "a": "Fleet Generals and Admirals can purchase assets from the Fleet Assets screen using units from the Fleet Vault. Different assets unlock at different fleet levels."
+        },
+        {
+          "q": "How do I upgrade fleet assets?",
+          "a": "Generals, Admirals, and Commodores can upgrade assets up to Level 5. Each upgrade costs units from the Fleet Vault and improves the asset's benefits."
         }
       ]
     },
@@ -64,15 +168,19 @@
       "items": [
         {
           "q": "What are Federal Crystals?",
-          "a": "Federal Crystals are the premium currency. Use them for Emergency Shields, troop regeneration, abilities (Enrich, Fortify, Nullify), and more. Earn them from contracts, daily challenges, and the Traders Hall."
+          "a": "Federal Crystals are the premium currency. Use them for Emergency Shields, troop regeneration, abilities, and more. Earn them from contracts, daily challenges, and the Traders Hall."
         },
         {
           "q": "What are Gems?",
           "a": "Gems boost your combat stats permanently. Gem of Destruction boosts bomb power, Gem of Technology boosts hack power, and Gem of Power boosts raid power. Level them up in the Traders Hall."
         },
         {
+          "q": "What is a Nano Serum?",
+          "a": "A Nano Serum is a special item that lets you revive all your Medical Bay patients for free, without spending units. Keep one in reserve for when you get hit hard."
+        },
+        {
           "q": "Why does population cost more the more I have?",
-          "a": "Population uses tiered pricing — your first 120,000 pop costs 1 unit each, but every tier after that doubles the price. This keeps the economy balanced so high-population players can't just snowball endlessly. Check the Population Cost Tiers guide for the full breakdown."
+          "a": "Population uses tiered pricing — your first 120,000 pop costs 1 unit each, but every tier after that increases the price. This keeps the economy balanced so high-population players can't just snowball endlessly."
         }
       ]
     },
@@ -91,12 +199,74 @@
       ]
     },
     {
+      "title": "EMP Attacks",
+      "icon": "🔴",
+      "items": [
+        {
+          "q": "What is an EMP?",
+          "a": "An EMP (Electromagnetic Pulse) is a fleet-level attack that temporarily disables a target player's shield, preventing it from being repaired. While under EMP, you cannot activate your Emergency Shield."
+        },
+        {
+          "q": "How do I recover from an EMP?",
+          "a": "EMPs have a set duration based on the damage dealt. Your fleet members can donate Repair Kits through the fleet chat to reduce the EMP timer. Once the timer expires or enough kits are donated, your shield becomes repairable again."
+        }
+      ]
+    },
+    {
+      "title": "Wars",
+      "icon": "⚔️",
+      "items": [
+        {
+          "q": "What are fleet wars?",
+          "a": "Fleet wars are tracked conflicts between two fleets. When members of opposing fleets attack each other, the damage is recorded in the war stats. View active wars in the Archives → Wars tab."
+        },
+        {
+          "q": "How do wars start?",
+          "a": "Wars begin automatically when fleets have significant combat activity against each other. They track raid wins, shield damage dealt, population destroyed, and more."
+        }
+      ]
+    },
+    {
+      "title": "Ambassador Codes",
+      "icon": "🎖️",
+      "items": [
+        {
+          "q": "What is an ambassador code?",
+          "a": "An ambassador code is a unique code assigned to content creators and community leaders. You can enter an ambassador code in Settings to show your support for them."
+        },
+        {
+          "q": "How do I support an ambassador?",
+          "a": "Go to Settings → Administration → Support an Ambassador. Enter their code and tap Set. You can change your ambassador at any time."
+        },
+        {
+          "q": "How do I get my own ambassador code?",
+          "a": "Ambassador codes are assigned to recognized content creators and community leaders. If you're actively creating content or leading a community for Galactic Conquest, reach out on Discord to learn more."
+        },
+        {
+          "q": "Does using a referral code set my ambassador automatically?",
+          "a": "Yes — if the player who referred you has an ambassador code, you'll automatically be set as supporting them when you create your account. You can change this anytime in Settings."
+        }
+      ]
+    },
+    {
       "title": "Account & Technical",
       "icon": "⚙️",
       "items": [
         {
           "q": "How do I change my username?",
-          "a": "Go to Settings and tap Change Username. You can change your name once every 7 days. Your progress, fleet membership, and all data carry over."
+          "a": "Go to Settings and tap Change Username. You can change your name once every 7 days. Capitalization changes are allowed. Your progress, fleet membership, and all data carry over."
+        },
+        {
+          "q": "How do I recover my account on a new phone?",
+          "a": "Use the Reclaim Account option on the login screen. Enter the email and password you set up when you created your account. If you forgot your password, use the Reset Password option to receive a reset code via email."
+        },
+        {
+          "q": "I forgot my password, how do I reset it?",
+          "a": "Tap Reset Password on the login screen. Enter the email associated with your account and you'll receive a 6-digit code. Enter the code and set a new password, then use Reclaim Account to log in."
+        },
+        {
+          "q": "Are emulators allowed?",
+          "a": "No. Emulators and automated tools are not supported and will be blocked. Galactic Conquest is designed for mobile devices only."
         },
         {
           "q": "I'm experiencing lag or connection issues",
