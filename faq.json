@@ -14,15 +14,15 @@
         },
         {
           "q": "What is a home fleet?",
-          "a": "Your home fleet is the fleet you're committed to. You must be in a fleet for 5 consecutive days before it becomes your home fleet. Home fleet members can access fleet assets and participate in fleet wars."
+          "a": "Your home fleet is the fleet you're committed to. You must be in a fleet for 5 consecutive days before it becomes your home fleet. Home fleet members can access fleet assets and participate in fleet activities."
         },
         {
           "q": "How do I earn units?",
-          "a": "Raid other players! Successful raids steal units from your target. You can also earn units from contracts and daily challenges."
+          "a": "Raid other players! Successful raids steal units from your target. You can also earn units from contracts, daily challenges, faction events, and the Medical Bay."
         },
         {
           "q": "What is total power?",
-          "a": "Total power is the sum of your raid power, hack power, bomb power, defense stats, and population bonus. It determines your ranking on leaderboards. Upgrade your buildings and grow your population to increase it."
+          "a": "Total power reflects your combat strength — raid, hack, and bomb power plus your defensive stats and population bonus. It determines your ranking on leaderboards. Upgrade your buildings, level your Gems, and grow your population to increase it."
         }
       ]
     },
@@ -32,23 +32,27 @@
       "items": [
         {
           "q": "How does raiding work?",
-          "a": "Raids steal units from another player. Your raid power vs their turret power determines the outcome. Upgrade your Garrison to increase your raid troop capacity."
+          "a": "Raids steal units from another player. Your raid power vs their raid/turret defense determines the outcome. Upgrade your Garrison to increase your raid troop capacity, and keep Enrich active for bigger payouts."
         },
         {
           "q": "How does hacking work?",
-          "a": "Hacks deal damage to a player's shield. Once their shield is down, they become vulnerable to bombs. Your hack power vs their firewall power determines the outcome."
+          "a": "Hacks deal damage to a player's shield. Your hack power vs their firewall power determines the outcome. Once their shield is down (0 HP), they become vulnerable to bombs."
         },
         {
           "q": "How does bombing work?",
-          "a": "Bombs destroy population — but only if the target's shield is down (0 HP). Your bomb power vs their bombing dome power determines the outcome. Population is important because it contributes to your total power."
+          "a": "Bombs destroy population — but only if the target's shield is at 0 HP. Your bomb power vs their bombing dome power determines the outcome. Population matters because it boosts your total power and resource production."
         },
         {
           "q": "What is the Emergency Shield?",
-          "a": "When your shield is destroyed, you can activate an Emergency Shield to restore it. It costs Federal Crystals and has a cooldown. Cast it quickly after your shield breaks to protect against bombs!"
+          "a": "When your shield is destroyed, you can instantly restore part of it with the Emergency Shield — it's free (no Federal Crystals) but has a 2-minute cooldown, so use it wisely right after your shield breaks to protect against bombs."
         },
         {
           "q": "What happens when my troops run out?",
-          "a": "Troops regenerate slowly over time. You can also spend 100 Federal Crystals to instantly regenerate a troop type. Each attack costs troops whether you win or lose, so plan your attacks wisely."
+          "a": "Troops regenerate slowly over time. You can also spend 100 Federal Crystals to instantly refill ALL three troop types (raid, hack, and bomb) at once. Each attack costs troops whether you win or lose, so plan your attacks carefully."
+        },
+        {
+          "q": "What is the Ion Cannon?",
+          "a": "The Ion Cannon is a long-range weapon that deals damage directly to an enemy's shield (it never touches population). You must charge it with Federal Crystals before firing, and it can't overkill — damage is capped at the target's remaining shield."
         }
       ]
     },
@@ -58,19 +62,53 @@
       "items": [
         {
           "q": "What is Enrich?",
-          "a": "Enrich boosts your resource production for a limited time. Activate it from your own profile. Higher levels increase the bonus and duration."
+          "a": "Enrich boosts your raid payouts and resource production for 2 hours. Higher Enrich levels increase the bonus. It has a 1-day cooldown — activate it from your own profile before a raiding session."
         },
         {
           "q": "What is Fortify?",
-          "a": "Fortify temporarily strengthens your shield beyond its normal capacity, making you harder to hack through. Activate it from your own profile when you expect incoming attacks."
+          "a": "Fortify temporarily DOUBLES your defensive power across raids, hacks, and bombs, making you much harder to beat. Duration scales with its level (2 hours per level) and it has a 3-day cooldown. Activate it from your own profile when you expect incoming attacks."
         },
         {
           "q": "What is Scramble?",
-          "a": "Scramble gives you a 70% chance to deflect bomb damage completely. While active, your hack troops are consumed and will not regenerate. It's a powerful defensive tool but leaves you unable to hack while it's running."
+          "a": "Scramble completely deflects ALL incoming bomb damage while it's active (lasts roughly 40–80 minutes). The catch: it zeroes out your hack troops, which won't regenerate while it's running, and Scramble ends the moment you launch an attack of your own. It's a pure defensive shield for your population."
         },
         {
           "q": "What is Nullify?",
-          "a": "Nullify disables another player's active abilities. Cast it on an enemy's profile to shut down their Enrich, Fortify, or Scramble. It has a 7-day cooldown, so use it strategically."
+          "a": "Nullify shuts down another player's active buffs — it cancels their Enrich, Fortify, and Nullify and puts those on cooldown. (It does not cancel Scramble.) You must be at least level 5 to use it, and it has a 7-day cooldown, so save it for a key target."
+        }
+      ]
+    },
+    {
+      "title": "Faction Games",
+      "icon": "🎮",
+      "items": [
+        {
+          "q": "What are Faction Games?",
+          "a": "Faction Games are fast, scheduled team-vs-team PvP wars — two squads battle across a roughly 60-minute match split into timed phases. They're completely separate from Faction Orders (the long points race) and from auto-tracked Fleet Wars. Check the Faction Games screen for the schedule and to sign up."
+        },
+        {
+          "q": "What's the difference between a Team War and an Individual War?",
+          "a": "Individual Wars let you sign up solo during the signup window — players are then auto-matched into two balanced teams. Team Wars are pre-formed: a squad captain registers a full roster of teammates to face another squad. The schedule shows which type each upcoming game is."
+        },
+        {
+          "q": "How do I sign up and form a team?",
+          "a": "For an Individual War, just tap Sign Up during the signup window. For a Team War, your squad's leader or co-leader submits the full roster before signup closes. To create a squad, pick a name (3–32 characters) and a short tag (2–6 letters/numbers)."
+        },
+        {
+          "q": "How does energy work in a Faction Game?",
+          "a": "You start each war with 100 energy and regenerate it over time (faster during the mid-war Overdrive phase, and much faster if you're the last one standing on your team). Every action costs energy: Raid 15, Hack 20, Bomb 30, plus smaller costs for abilities and recon. Spend it wisely."
+        },
+        {
+          "q": "How do I score points in a Faction Game?",
+          "a": "Knocking out an enemy is worth a huge 1,000 points. Landing attacks earns points too — Hack 25, Raid 20, Bomb 20 — and simply surviving to the end is worth 300. The team with the most total points when the clock runs out (or that eliminates the other team) wins. Note: a successful Scramble reflect protects you but does NOT award points."
+        },
+        {
+          "q": "What abilities can I use during a Faction Game?",
+          "a": "In-war powers include Fortify and Bunker Down (halve incoming damage, and they stack), Scramble (reflects the next few attacks back at the enemy), Emergency Repair and Shield Relay (heal troops/shield), Rally and Counter-Rally (damage buffs/cleanse), and Recon (scout an enemy's stats). Each costs energy and has its own cooldown."
+        },
+        {
+          "q": "What do I get for winning?",
+          "a": "Everyone on the winning team earns 500 Federal Crystals; the losing team still gets 200. The match MVP earns a bonus 250 on top. Your wins, losses, streaks, and lifetime stats are tracked in your Faction Games history."
         }
       ]
     },
@@ -80,11 +118,11 @@
       "items": [
         {
           "q": "What are the Frontlines?",
-          "a": "The Frontlines is a cooperative PvE system where all deployed players work together to take down NPC Coalition fleets. Deploy from the Intel tab in Archives to participate."
+          "a": "The Frontlines is a cooperative PvE system where deployed players work together to take down NPC Coalition fleets. Deploy from the Intel tab in Archives to participate."
         },
         {
           "q": "How do I deploy?",
-          "a": "Go to Archives → Intel tab and tap the Deploy to Frontlines button. Once deployed, you can attack NPC targets. You can withdraw at any time, but there is a 3-day cooldown before you can redeploy."
+          "a": "Go to Archives → Intel and tap Deploy to Frontlines. Once deployed you can attack NPC targets. You can withdraw at any time, but there's a 1-hour cooldown before you can redeploy."
         },
         {
           "q": "How does the siege system work?",
@@ -92,59 +130,15 @@
         },
         {
           "q": "What is the boarding window?",
-          "a": "When an NPC's hull reaches 0, a boarding window opens. This is a timed countdown — all deployed players must raid the NPC's core systems before the window closes. If the window expires, the NPC repairs its hull and you have to bomb it again."
+          "a": "When an NPC's hull reaches 0, a timed boarding window opens — everyone must raid its core systems before the timer runs out. The window length depends on the NPC's tier (about 4 hours for the easiest down to 15 minutes for the toughest). If it expires, the NPC repairs its hull and you have to bomb it down again."
         },
         {
           "q": "Do NPC fleets fight back?",
-          "a": "Coalition forces launch retaliatory strikes against deployed players. If you're deployed to the frontlines, expect incoming attacks on your settlement. Make sure your defenses are strong."
+          "a": "Yes — but specifically when your fleet takes on a PvP Operative Contract. While that contract is active, the targeted Coalition fleet launches retaliatory strikes against your fleet members. Make sure your defenses are strong before you start one."
         },
         {
           "q": "What happens when I destroy an NPC?",
-          "a": "You earn XP based on the NPC's difficulty tier. The damage contribution leaderboard tracks who dealt the most damage. When all members of a fleet are destroyed, the fleet is neutralized."
-        }
-      ]
-    },
-    {
-      "title": "Medical Bay",
-      "icon": "🏥",
-      "items": [
-        {
-          "q": "What is the Medical Bay?",
-          "a": "The Medical Bay is a fleet asset that rescues a portion of your population when you get bombed. Instead of being destroyed permanently, some civilians are transferred to the Medical Bay for triage."
-        },
-        {
-          "q": "How much population is saved?",
-          "a": "It depends on your fleet's Medical Bay level. Each level has a per-player cap and a fleet-wide capacity. Level 1 saves up to 25,000 per player. Level 5 saves up to 400,000 per player."
-        },
-        {
-          "q": "How do I recover my triage population?",
-          "a": "Go to your fleet assets and open the Medical Bay. You can revive all patients at once using units (30% of the population as cost) or use a Nano Serum item to revive for free."
-        },
-        {
-          "q": "Do triage patients expire?",
-          "a": "Yes — patients remain in triage for 3 days. If you don't revive them within that window, they are lost permanently. Check the Medical Bay regularly after getting bombed."
-        },
-        {
-          "q": "Does every fleet have a Medical Bay?",
-          "a": "No — it must be purchased as a fleet asset by a General or Admiral. If your fleet doesn't have one, your destroyed population is lost immediately."
-        }
-      ]
-    },
-    {
-      "title": "Fleet Assets",
-      "icon": "🏗️",
-      "items": [
-        {
-          "q": "What are fleet assets?",
-          "a": "Fleet assets are major infrastructure that benefit your entire home fleet. They include the Dyson Sphere, Halo Vault, Sentry Swarm, Medical Bay, and more. Only home fleet members can access them."
-        },
-        {
-          "q": "How do I get fleet assets?",
-          "a": "Fleet Generals and Admirals can purchase assets from the Fleet Assets screen using units from the Fleet Vault. Different assets unlock at different fleet levels."
-        },
-        {
-          "q": "How do I upgrade fleet assets?",
-          "a": "Generals, Admirals, and Commodores can upgrade assets up to Level 5. Each upgrade costs units from the Fleet Vault and improves the asset's benefits."
+          "a": "You earn XP scaled to the NPC's difficulty tier, and your damage is recorded on the contribution leaderboard. When every member of an NPC fleet is destroyed, the fleet is neutralized."
         }
       ]
     },
@@ -154,11 +148,67 @@
       "items": [
         {
           "q": "What are contracts?",
-          "a": "Contracts are PvE missions. Each contract has three HP bars (Raid, Hack, Bomb) that you need to deplete. You earn units and XP for completing them."
+          "a": "Contracts are PvE missions made up of stages, each with Raid, Hack, and/or Bomb bars to deplete. Clear all the stages to earn a unit payout for your fleet, plus faction-order points and battle-pass progress. Longer multi-stage contracts pay a bonus."
+        },
+        {
+          "q": "What rank do I need to start a contract?",
+          "a": "Any rank above the entry tier can start contracts — only Recruits and Cadets cannot. Everyone from Operative/Sentry upward is eligible. (You can join in on a contract your fleet has already started regardless.)"
         },
         {
           "q": "My troops keep running out during contracts!",
-          "a": "You can use Federal Crystals to instantly regenerate all three troop types. Troops also regenerate slowly over time. Plan your attacks to use all three types efficiently."
+          "a": "Use 100 Federal Crystals to instantly refill all three troop types, or let them regenerate over time. Plan your attacks to use raid, hack, and bomb troops efficiently across the bars."
+        },
+        {
+          "q": "What are PvP Operative Contracts?",
+          "a": "Also called Hunter's Mandate, these are special red contracts that appear at the top of your Available Contracts list. Instead of a generic target, you hunt one specific Coalition operative who's at full strength. Tap the contract to view that operative's profile, then coordinate with your fleet to eliminate them."
+        },
+        {
+          "q": "How often do PvP Operative Contracts appear, and what do they pay?",
+          "a": "Each fleet is offered at most 2 per rolling 7 days, at least 48 hours apart, and an offer expires if not started within 48 hours. Rewards scale with your personal contribution to the kill — units based on damage dealt, a Federal Crystal payout (minimum 300), and a Colony Pod for the top 5 contributors — plus faction-order points. Warning: starting one provokes retaliation from the enemy fleet against your whole fleet."
+        }
+      ]
+    },
+    {
+      "title": "Medical Bay",
+      "icon": "🏥",
+      "items": [
+        {
+          "q": "What is the Medical Bay?",
+          "a": "The Medical Bay is a fleet asset that rescues a portion of your population when you get bombed. Instead of being destroyed permanently, some civilians are moved to triage in the Medical Bay."
+        },
+        {
+          "q": "How much population is saved?",
+          "a": "It depends on your fleet's Medical Bay level — higher levels rescue more, with both a per-player cap and a fleet-wide capacity. Upgrade it to protect more of your population from bombing."
+        },
+        {
+          "q": "How do I recover my triage population?",
+          "a": "Open the Medical Bay in your fleet assets and revive your patients. Reviving with units costs 40% of the normal population cost, or you can use a Nano Serum item to revive everyone for free."
+        },
+        {
+          "q": "Do triage patients expire?",
+          "a": "Yes — patients only stay in triage for a limited time. If you don't revive them in time, they're lost permanently, so check the Medical Bay soon after getting bombed."
+        },
+        {
+          "q": "Does every fleet have a Medical Bay?",
+          "a": "No — it must be purchased as a fleet asset by fleet leadership. If your fleet doesn't have one, your destroyed population is lost immediately."
+        }
+      ]
+    },
+    {
+      "title": "Fleet Assets",
+      "icon": "🏗️",
+      "items": [
+        {
+          "q": "What are fleet assets?",
+          "a": "Fleet assets are major infrastructure that benefit your entire home fleet — the Dyson Sphere, Halo Vault, Sentry Swarm, Medical Bay, and more. Only home fleet members can access their benefits."
+        },
+        {
+          "q": "How do I get fleet assets?",
+          "a": "Top fleet leadership (Generals, Sovereigns, and Admirals) can purchase assets from the Fleet Assets screen using units from the Fleet Vault. Different assets unlock at different fleet levels."
+        },
+        {
+          "q": "How do I upgrade fleet assets?",
+          "a": "Generals, Sovereigns, and Admirals can upgrade assets up to Level 5. Each upgrade costs units from the Fleet Vault and improves the asset's benefits."
         }
       ]
     },
@@ -168,19 +218,19 @@
       "items": [
         {
           "q": "What are Federal Crystals?",
-          "a": "Federal Crystals are the premium currency. Use them for Emergency Shields, troop regeneration, abilities, and more. Earn them from contracts, daily challenges, and the Traders Hall."
+          "a": "Federal Crystals are the premium currency. Use them to charge the Ion Cannon, instantly regenerate troops, and more. Earn them from contracts, daily challenges, faction events, and the Traders Hall."
         },
         {
           "q": "What are Gems?",
           "a": "Gems boost your combat stats permanently. Gem of Destruction boosts bomb power, Gem of Technology boosts hack power, and Gem of Power boosts raid power. Level them up in the Traders Hall."
         },
         {
-          "q": "What is a Nano Serum?",
-          "a": "A Nano Serum is a special item that lets you revive all your Medical Bay patients for free, without spending units. Keep one in reserve for when you get hit hard."
+          "q": "What do the different items do?",
+          "a": "Repair Kit — helps recover from EMP damage. Colony Pod — instantly adds population. Architect's Blueprint — grants combat XP (raid, hack, and bomb XP) to level your buildings faster. Knowledge Crystal — grants player XP toward your level. Nano Serum — revives all Medical Bay patients for free. Collect them from the Traders Hall, events, and rewards."
         },
         {
           "q": "Why does population cost more the more I have?",
-          "a": "Population uses tiered pricing — your first 120,000 pop costs 1 unit each, but every tier after that increases the price. This keeps the economy balanced so high-population players can't just snowball endlessly."
+          "a": "Population uses tiered pricing — your first 120,000 pop costs 1 unit each, and the price per unit doubles at each tier above that (2 at 120K, 4 at 240K, 8 at 360K, and so on). This keeps high-population players from snowballing endlessly."
         }
       ]
     },
@@ -190,11 +240,53 @@
       "items": [
         {
           "q": "What are Faction Orders?",
-          "a": "Faction Orders are 15-day events where you earn points by playing normally — raids, hacks, bombs, and contracts all count. Earn enough points to unlock tiered rewards for your faction."
+          "a": "Faction Orders are multi-day campaigns where you earn points just by playing — raids, hacks, bombs, and contract completions all count. Hit point thresholds to claim tiered rewards (units, crystals, and items) for yourself."
+        },
+        {
+          "q": "How do the rewards work?",
+          "a": "There are two layers: tiered rewards you claim as you pass point thresholds, and end-of-campaign placement rewards (Federal Crystals and Colony Pods) for the top 3 players in each faction."
         },
         {
           "q": "What is the Galactic Champion?",
-          "a": "The player with the most Faction Order points at the end of the event becomes the Galactic Champion. Champions get a crown animation on their entrance and special recognition."
+          "a": "The player with the most Faction Order points when the campaign ends is crowned the Galactic Champion, earning special recognition and a crown for a limited time."
+        }
+      ]
+    },
+    {
+      "title": "Battle Pass",
+      "icon": "🎟️",
+      "items": [
+        {
+          "q": "What is the Battle Pass?",
+          "a": "The Battle Pass is a seasonal progression track with rewards you unlock as you earn Battle Pass XP through normal play. There's a free track everyone can claim and a premium track that unlocks extra rewards at each tier."
+        },
+        {
+          "q": "How do I make progress on the Battle Pass?",
+          "a": "Complete the Battle Pass weekly challenges to earn XP and climb tiers. Each tier hands out rewards like units, crystals, XP, and items. Claim your free and premium rewards from the Battle Pass screen as you unlock them."
+        }
+      ]
+    },
+    {
+      "title": "Daily Challenges",
+      "icon": "✅",
+      "items": [
+        {
+          "q": "What are Daily Challenges?",
+          "a": "Daily Challenges are quick objectives that reset every day — things like winning a number of raids or hacks. Complete them and submit to collect rewards such as Federal Crystals and units. Check back daily for a fresh set."
+        }
+      ]
+    },
+    {
+      "title": "Starship Bay",
+      "icon": "🚀",
+      "items": [
+        {
+          "q": "What is the Starship Bay?",
+          "a": "The Starship Bay lets you customize your personal flagship — hull, paint colors, finish, decals, backdrop, and glow effects like rim and engine glow. It's purely cosmetic and shows off on your profile."
+        },
+        {
+          "q": "How do I customize my starship?",
+          "a": "Open your profile and tap your starship card to enter the Starship Bay. Tapping another player's starship lets you inspect their design."
         }
       ]
     },
@@ -204,11 +296,11 @@
       "items": [
         {
           "q": "What is an EMP?",
-          "a": "An EMP (Electromagnetic Pulse) is a fleet-level attack that temporarily disables a target player's shield, preventing it from being repaired. While under EMP, you cannot activate your Emergency Shield."
+          "a": "An EMP (Electromagnetic Pulse) is a fleet-level attack that disrupts a target player, preventing their shield from being repaired normally. While under an EMP, you cannot simply restore your shield."
         },
         {
           "q": "How do I recover from an EMP?",
-          "a": "EMPs have a set duration based on the damage dealt. Your fleet members can donate Repair Kits through the fleet chat to reduce the EMP timer. Once the timer expires or enough kits are donated, your shield becomes repairable again."
+          "a": "EMPs last for a set duration. Your fleet members can send Repair Kits to help you recover faster. Once the timer expires or enough help arrives, your shield becomes repairable again."
         }
       ]
     },
@@ -218,11 +310,11 @@
       "items": [
         {
           "q": "What are fleet wars?",
-          "a": "Fleet wars are tracked conflicts between two fleets. When members of opposing fleets attack each other, the damage is recorded in the war stats. View active wars in the Archives → Wars tab."
+          "a": "Fleet wars are tracked conflicts between two fleets. When members of opposing fleets attack each other, the damage is recorded in the war stats. View active wars in the Archives → Wars tab. (These are separate from the scheduled Faction Games team battles.)"
         },
         {
           "q": "How do wars start?",
-          "a": "Wars begin automatically when fleets have significant combat activity against each other. They track raid wins, shield damage dealt, population destroyed, and more."
+          "a": "Wars begin automatically when fleets rack up significant combat activity against each other. They track raid wins, shield damage dealt, population destroyed, and more."
         }
       ]
     },
