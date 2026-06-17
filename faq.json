@@ -104,7 +104,7 @@
         },
         {
           "q": "What abilities can I use during a Faction Game?",
-          "a": "In-war powers include Fortify and Bunker Down (halve incoming damage, and they stack), Scramble (reflects the next few attacks back at the enemy), Emergency Repair and Shield Relay (heal troops/shield), Rally and Counter-Rally (damage buffs/cleanse), and Recon (scout an enemy's stats). Each costs energy and has its own cooldown."
+          "a": "In-war powers include Fortify and Bunker Down (halve incoming damage, and they stack), Scramble (one-time use per war — reflects up to 5 incoming attacks back at the attackers' team, active until all 5 are used), Shield Relay (restores shield HP), Rally and Counter-Rally (damage buffs / cleanse), and Recon (scout an enemy's stats). Each costs energy and has its own cooldown."
         },
         {
           "q": "What do I get for winning?",
