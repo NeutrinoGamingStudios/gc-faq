@@ -172,7 +172,7 @@
         },
         {
           "q": "How often do PvP Operative Contracts appear, and what do they pay?",
-          "a": "Each fleet is offered at most 2 per rolling 7 days, at least 48 hours apart, and an offer expires if not started within 48 hours. Rewards scale with your personal contribution to the kill — units based on damage dealt, a Federal Crystal payout (minimum 100), and a Colony Pod for the top 5 contributors — plus faction-order points. Warning: starting one provokes retaliation from the enemy fleet against your whole fleet."
+          "a": "Each fleet can receive up to 7 offers per rolling 7 days (one at a time — finish or let one expire before the next can arrive), and an offer expires if not started within 48 hours. Rewards scale with your personal contribution to the kill — units based on damage dealt, a Federal Crystal payout (minimum 100), and a Colony Pod for the top 5 contributors — plus faction-order points. Warning: starting one provokes retaliation from the enemy fleet against your whole fleet."
         },
         {
           "q": "How is my PvP Operative target chosen?",
