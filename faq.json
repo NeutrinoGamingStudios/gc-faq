@@ -109,6 +109,14 @@
         {
           "q": "What do I get for winning?",
           "a": "Everyone on the winning team earns 500 Federal Crystals; the losing team still gets 200. The match MVP earns a bonus 250 on top. Your wins, losses, streaks, and lifetime stats are tracked in your Faction Games history."
+        },
+        {
+          "q": "What is the War Pass?",
+          "a": "The War Pass is a seasonal reward track fueled by Faction Games: you earn 50 points for participating in a war and 100 points for winning one. Climb the point tiers to claim rewards — including exclusive starship skins at the top."
+        },
+        {
+          "q": "I switched squads — can my new squad still sign me up?",
+          "a": "Yes. If an old squad had already put you on a war roster, signing up with your new squad automatically releases you from the stale roster. Players who are genuinely on another squad's active roster for that war can't be double-signed."
         }
       ]
     },
@@ -164,7 +172,47 @@
         },
         {
           "q": "How often do PvP Operative Contracts appear, and what do they pay?",
-          "a": "Each fleet is offered at most 2 per rolling 7 days, at least 48 hours apart, and an offer expires if not started within 48 hours. Rewards scale with your personal contribution to the kill — units based on damage dealt, a Federal Crystal payout (minimum 300), and a Colony Pod for the top 5 contributors — plus faction-order points. Warning: starting one provokes retaliation from the enemy fleet against your whole fleet."
+          "a": "Each fleet is offered at most 2 per rolling 7 days, at least 48 hours apart, and an offer expires if not started within 48 hours. Rewards scale with your personal contribution to the kill — units based on damage dealt, a Federal Crystal payout (minimum 100), and a Colony Pod for the top 5 contributors — plus faction-order points. Warning: starting one provokes retaliation from the enemy fleet against your whole fleet."
+        },
+        {
+          "q": "How is my PvP Operative target chosen?",
+          "a": "Targets are matched to your fleet's strength — stronger fleets draw tougher operatives, and every offer card shows an honest difficulty badge: Easy, Medium, Hard, or Very Hard, based on the target's actual defenses. Tougher targets take more damage to bring down, which also means bigger payouts. Echo announces new offers, starts, and kills in your fleet chat."
+        }
+      ]
+    },
+    {
+      "title": "Lands",
+      "icon": "🏞️",
+      "items": [
+        {
+          "q": "What are Lands?",
+          "a": "Every combat building (Garrison, Penetration Team, Bombing Bay) commands its own territory of 20 Lands. Tap ENTER on the building in the Upgrades screen to visit its Lands, develop structures on each plot, and grow the building's power beyond its normal cap."
+        },
+        {
+          "q": "How do Land upgrades work?",
+          "a": "Each Land levels from 1 to 10 using units, and every level adds power split between attack and defense for that building. Land attack raises your raid/hack/bomb attack, and land defense raises the matching defense — both show on your profile's combat cards."
+        },
+        {
+          "q": "Do Lands give any other bonuses?",
+          "a": "Yes — your total land ATTACK power sharpens your offense beyond raw stats: it boosts your contract damage (all attack types), your raid plunder, and your bomb damage by up to +30% with fully developed all-attack lands. Land upgrades also earn faction-order points for the units spent."
+        }
+      ]
+    },
+    {
+      "title": "Fleet Dailies",
+      "icon": "🌅",
+      "items": [
+        {
+          "q": "What are Fleet Dailies?",
+          "a": "Four objectives your whole fleet completes together each day (UTC): members logging in, Fleet XP donations, different members talking in fleet chat, and units spent on upgrades. Targets scale with your fleet's size. Track progress on the Fleet screen or ask '@Echo dailies' in fleet chat."
+        },
+        {
+          "q": "What do we get for completing all four?",
+          "a": "Your fleet instantly unlocks Operation Daybreak — an exclusive T6 contract paying 150% plunder — at the top of Available Contracts. You have until the END of the next day (00:00 UTC reset) to start it, so an early completion gives you up to ~47 hours."
+        },
+        {
+          "q": "What is the Perfect Week?",
+          "a": "Complete every daily from Sunday through Friday and on Saturday your fleet is granted Operation Daybreak: Overdrive — a massive 20-stage T6 campaign with boss stages and a mountain of plunder. Miss a single day and the Overdrive waits for next week, so keep the streak alive!"
         }
       ]
     },
@@ -209,6 +257,14 @@
         {
           "q": "How do I upgrade fleet assets?",
           "a": "Generals, Sovereigns, and Admirals can upgrade assets up to Level 5. Each upgrade costs units from the Fleet Vault and improves the asset's benefits."
+        },
+        {
+          "q": "How does my fleet earn Fleet XP?",
+          "a": "Two ways: daily donations (each member can donate 2,500 units once a day for +25 Fleet XP — the most XP-efficient path), and big infrastructure spending — buying or upgrading fleet assets grants Fleet XP based on the units spent, announced by Echo in fleet chat. Fleet XP levels your fleet up to Level 10, unlocking more assets and member slots."
+        },
+        {
+          "q": "When does the Fleet Store restock?",
+          "a": "Every Monday at 00:00 UTC, all limited-stock Fleet Store items reset to full stock — Echo announces it in fleet chat. Ask '@Echo store' anytime to see your fleet's current stock and the restock countdown."
         }
       ]
     },
@@ -226,7 +282,11 @@
         },
         {
           "q": "What do the different items do?",
-          "a": "Repair Kit — helps recover from EMP damage. Colony Pod — instantly adds population. Architect's Blueprint — grants combat XP (raid, hack, and bomb XP) to level your buildings faster. Knowledge Crystal — grants player XP toward your level. Nano Serum — revives all Medical Bay patients for free. Collect them from the Traders Hall, events, and rewards."
+          "a": "Repair Kit — helps recover from EMP damage. Colony Pod — instantly adds population. Architect's Blueprint — grants 92 combat XP that YOU allocate between raid, hack, and bomb using the sliders when you use it. Knowledge Crystal — grants player XP toward your level. Nano Serum — revives all Medical Bay patients for free. Collect them from the Traders Hall, events, and rewards."
+        },
+        {
+          "q": "Can I use multiple Knowledge Crystals at once?",
+          "a": "Yes — pick a quantity when you use them. Each crystal has a chance to CRIT for a 5× XP burst, and a chance to trigger a Wisdom Broadcast that grants bonus XP to every member of your fleet. Bulk sessions make those lucky rolls add up."
         },
         {
           "q": "Why does population cost more the more I have?",
@@ -263,6 +323,10 @@
         {
           "q": "How do I make progress on the Battle Pass?",
           "a": "Complete the Battle Pass weekly challenges to earn XP and climb tiers. Each tier hands out rewards like units, crystals, XP, and items. Claim your free and premium rewards from the Battle Pass screen as you unlock them."
+        },
+        {
+          "q": "Can I gift the Battle Pass to another player?",
+          "a": "Yes! Visit their profile and tap the 🎁 Gift Pass button in Player Actions — it costs the same as buying it for yourself, and the pass activates on their account instantly. The button only appears if they don't already own the current pass."
         }
       ]
     },
@@ -315,6 +379,38 @@
         {
           "q": "How do wars start?",
           "a": "Wars begin automatically when fleets rack up significant combat activity against each other. They track raid wins, shield damage dealt, population destroyed, and more."
+        }
+      ]
+    },
+    {
+      "title": "Commendations",
+      "icon": "🏅",
+      "items": [
+        {
+          "q": "What are Commendations?",
+          "a": "Commendations are your medal wall — 50+ commander medals for raids, hacks, bombs, garrison wipes, building levels, leaderboard rank, and more, plus fleet commendations your whole crew earns together. Tap the 🏅 button on your profile to see them, with live progress bars toward every unearned medal."
+        },
+        {
+          "q": "Do fleet commendations disappear if our stats drop?",
+          "a": "No — fleet commendations are sticky. Once your fleet earns one (say, reaching the top 10 by power), it's kept forever, even if the requirement is no longer met later."
+        },
+        {
+          "q": "What is a Garrison Wipe?",
+          "a": "The garrison-destroyer commendations count the times you've raided an enemy's garrison all the way down to 0 troops in a winning raid — a total wipe of their defenders."
+        }
+      ]
+    },
+    {
+      "title": "Echo Commands",
+      "icon": "🤖",
+      "items": [
+        {
+          "q": "What can I ask Echo in fleet chat?",
+          "a": "Type '@Echo' followed by a command in fleet chat: 'dailies' (live Fleet Dailies progress), 'war' (the current or next Faction Games war), 'store' (Fleet Store stock and restock timer), 'space' (open roster spots), or 'help' for the full menu. Everyone can use these."
+        },
+        {
+          "q": "Are there officer-only Echo commands?",
+          "a": "Yes — fleet officers (Commander and above) can use '@Echo announce <message>' to send a full fleet announcement (with the popup for offline members) and '@Echo defcon <1-5>' to set the fleet's readiness level from chat. Echo politely refuses anyone below the required rank."
         }
       ]
     },
