@@ -52,7 +52,7 @@
         },
         {
           "q": "What is the Ion Cannon?",
-          "a": "The Ion Cannon is a long-range weapon that deals damage directly to an enemy's shield (it never touches population). You must charge it with Federal Crystals before firing, and it can't overkill — damage is capped at the target's remaining shield."
+          "a": "The Ion Cannon is a long-range weapon that deals damage directly to an enemy's shield (it never touches population). You must charge it with Federal Crystals before firing, and it can't overkill — damage is capped at the target's remaining shield. If the target has an active Supercharged Shield, the shot is completely deflected for zero damage (and still discharges your cannon)."
         }
       ]
     },
@@ -66,7 +66,11 @@
         },
         {
           "q": "What is Fortify?",
-          "a": "Fortify temporarily DOUBLES your defensive power across raids, hacks, and bombs, making you much harder to beat. Duration scales with its level (2 hours per level) and it has a 3-day cooldown. Activate it from your own profile when you expect incoming attacks."
+          "a": "Fortify temporarily DOUBLES your defensive power across raids, hacks, and bombs, making you much harder to beat. Duration scales with its level (2 hours per level) and it has a 3-day cooldown. Activate it from your own profile when you expect incoming attacks. While it's up, it also fully deflects incoming NPC Coalition retaliation strikes."
+        },
+        {
+          "q": "What is the Supercharged Shield?",
+          "a": "The Supercharged Shield is a premium defensive item from the Traders Hall. Once active it completely deflects ALL incoming hacks — and Ion Cannon strikes — for 8 hours, so no attacker can drop your shield while it holds. Activating another one extends the timer."
         },
         {
           "q": "What is Scramble?",
@@ -138,7 +142,7 @@
         },
         {
           "q": "What is the boarding window?",
-          "a": "When an NPC's hull reaches 0, a timed boarding window opens — everyone must raid its core systems before the timer runs out. The window length depends on the NPC's tier (about 4 hours for the easiest down to 15 minutes for the toughest). If it expires, the NPC repairs its hull and you have to bomb it down again."
+          "a": "When an NPC's hull reaches 0, a timed boarding window opens — everyone must raid its core systems before the timer runs out. The window length depends on the NPC's tier (about 4 hours for the easiest down to 15 minutes for the toughest). If it expires, the NPC repairs its hull and you have to bomb it back down to reopen boarding — but the core damage you already dealt is saved, so every boarding session chips permanent progress."
         },
         {
           "q": "Do NPC fleets fight back?",
@@ -172,7 +176,7 @@
         },
         {
           "q": "How often do PvP Operative Contracts appear, and what do they pay?",
-          "a": "A new offer can arrive as often as every 3 hours, with no weekly limit — but only one at a time, so finish or let one expire before the next can arrive. An offer expires if not started within 48 hours. Rewards scale with your personal contribution to the kill — units based on damage dealt, a Federal Crystal payout (minimum 100), and a graded Colony Pod bonus for the top 5 contributors (5 pods for 1st place down to 1 for 5th) that deploys instantly as population and power — plus faction-order points. Warning: starting one provokes retaliation from the enemy fleet against your whole fleet."
+          "a": "A new offer can arrive as often as every 3 hours, with no weekly limit — but only one at a time, so finish or let one expire before the next can arrive. An offer expires if not started within 48 hours. Rewards scale with your personal contribution to the kill — units based on damage dealt, a Federal Crystal payout (minimum 100), and a chance at Colony Pods that deploy instantly as population and power, plus faction-order points. Pod drops are damage-weighted (bigger contributors are likeliest) but not guaranteed — many takedowns drop none — and only established home-fleet members are eligible. Warning: starting one provokes retaliation from the enemy fleet against your whole fleet."
         },
         {
           "q": "How is my PvP Operative target chosen?",
@@ -304,7 +308,7 @@
         },
         {
           "q": "How do the rewards work?",
-          "a": "There are two layers: tiered rewards you claim as you pass point thresholds, and end-of-campaign placement rewards (Federal Crystals and Colony Pods) for the top 3 players in each faction."
+          "a": "There are two layers: tiered rewards you claim as you pass point thresholds, and end-of-campaign placement rewards (Federal Crystals and Colony Pods) for the top 10 players in each faction — the top 3 get a podium shout-out in the results."
         },
         {
           "q": "What is the Galactic Champion?",
